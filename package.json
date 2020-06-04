@@ -9,5 +9,9 @@
   },
   "scripts": {
     "test": "jest --watch --verbose"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
