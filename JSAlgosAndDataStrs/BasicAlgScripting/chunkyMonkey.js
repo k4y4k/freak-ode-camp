@@ -1,11 +1,11 @@
 function chunkArrayInGroups(arr, size) {
-  let product = [];
+  let product = []
 
   for (let i = 0; i < arr.length; i += size) {
-    product.push(arr.slice(i, i + size));
+    product.push(arr.slice(i, i + size))
   }
 
-  return product;
+  return product
 }
 
-module.exports = chunkArrayInGroups;
+module.exports = chunkArrayInGroups
