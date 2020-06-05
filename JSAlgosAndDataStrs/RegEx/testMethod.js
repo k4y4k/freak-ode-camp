@@ -1,5 +1,5 @@
-let myString = "Hello, World!";
-let myRegex = /Hello/;
-let result = myRegex.test(myString);
+let myString = 'Hello, World!'
+let myRegex = /Hello/
+let result = myRegex.test(myString)
 
-module.exports = result;
+module.exports = result

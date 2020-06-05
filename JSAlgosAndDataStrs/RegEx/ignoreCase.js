@@ -1,5 +1,5 @@
-let myString = "freeCodeCamp";
-let fccRegex = /freecodecamp/i; // Change this line
-let result = fccRegex.test(myString);
+let myString = 'freeCodeCamp'
+let fccRegex = /freecodecamp/i // Change this line
+let result = fccRegex.test(myString)
 
-module.exports = fccRegex;
+module.exports = fccRegex
