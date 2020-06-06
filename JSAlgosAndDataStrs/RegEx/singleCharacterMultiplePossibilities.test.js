@@ -6,7 +6,6 @@ describe(`Regular Expressions: Match Single Character with Multiple Possibilitie
   })
 
   test(`Your regex should not match any consonants`, () => {
-    console.log(result)
     const consonants = [
       'b',
       'c',
