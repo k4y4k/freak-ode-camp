@@ -5,13 +5,15 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "jest": "26.0.1"
+    "jest": "26.0.1",
+    "jest-extended": "0.11.5"
   },
   "scripts": {
     "test": "jest --watch --verbose"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
-    "collectCoverage": true
+    "collectCoverage": true,
+    "setupFilesAfterEnv": ["jest-extended"]
   }
 }
