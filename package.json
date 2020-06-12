@@ -9,7 +9,8 @@
     "jest-extended": "0.11.5"
   },
   "scripts": {
-    "test": "jest --watch --verbose"
+    "test": "jest --watch --verbose",
+    "ci": "jest"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
