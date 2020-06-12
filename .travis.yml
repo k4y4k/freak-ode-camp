@@ -9,8 +9,11 @@ git:
 
 script:
   - yarn --version
+  # pretty sure this is not needed but I'm erring on the side of 2 identical
+  # working installs rather than 1 non-working one
   - yarn
   - yarn ci
+  - codecov
 
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
