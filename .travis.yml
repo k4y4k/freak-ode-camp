@@ -1,17 +1,24 @@
 language: node_js
 node_js: 12
 
+git:
+  depth: false
+  quiet: true
+
 install:
   - npm install -g codecov
 
 script:
-  - yarn jest
+  - yarn ci
+
+after_script:
   - codecov
 
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
   - ./send.sh success $WEBHOOK_URL
+
 after_failure:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
