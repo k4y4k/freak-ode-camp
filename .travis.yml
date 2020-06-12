@@ -1,6 +1,8 @@
 language: node_js
 node_js: 12
 
+cache: false
+
 git:
   depth: false
   quiet: true
