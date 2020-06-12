@@ -8,9 +8,10 @@ git:
   quiet: true
 
 install:
-  - yarn global add codecov
+  - npm i -g codecov
 
 script:
+  - yarn --version
   - yarn ci
 
 after_script:

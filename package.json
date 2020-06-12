@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "jest --watch --verbose",
-    "ci": "yarn jest --verbose"
+    "ci": "./node_modules/.bin/jest --verbose"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
