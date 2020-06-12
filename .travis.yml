@@ -7,15 +7,10 @@ git:
   depth: false
   quiet: true
 
-install:
-  - npm i -g codecov
-
 script:
   - yarn --version
+  - yarn
   - yarn ci
-
-after_script:
-  - codecov
 
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
