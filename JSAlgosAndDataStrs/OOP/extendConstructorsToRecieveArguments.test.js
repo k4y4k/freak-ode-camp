@@ -1,4 +1,4 @@
-const { Dog, terrier } = require('./extendConstructorsToRecieveArguments.js')
+const { Dog } = require('./extendConstructorsToRecieveArguments.js')
 
 describe(`Object Oriented Programming: Extend Constructors to Receive Arguments`, () => {
   test(`Dog should receive an argument for name.`, () => {

@@ -1,5 +1,5 @@
-let rickyAndCal = 'Cal and Ricky both like racing.'
-let calRegex = /^Cal/
-let result = calRegex.test(rickyAndCal)
+const rickyAndCal = 'Cal and Ricky both like racing.'
+const calRegex = /^Cal/
+const result = calRegex.test(rickyAndCal)
 
 module.exports = { calRegex, result }

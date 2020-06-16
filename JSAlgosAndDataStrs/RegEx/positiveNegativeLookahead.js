@@ -1,4 +1,4 @@
-let sampleWord = 'astronaut'
+const sampleWord = 'astronaut'
 // let pwRegex = /^(?!\d)\w*(?=\d{2})\w*/g
 // ^ start of string
 //  (
@@ -16,8 +16,8 @@ let sampleWord = 'astronaut'
 //                      * 0+ times
 
 // turns out that works but it's not right, so
-let pwRegex = /^\D(?=\w{5})(?=\w*\d{2})/
+const pwRegex = /^\D(?=\w{5})(?=\w*\d{2})/
 
-let result = pwRegex.test(sampleWord)
+const result = pwRegex.test(sampleWord)
 
 module.exports = pwRegex

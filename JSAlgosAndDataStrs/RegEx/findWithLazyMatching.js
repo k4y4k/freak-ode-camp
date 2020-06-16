@@ -1,5 +1,5 @@
-let text = '<h1>Winter is coming</h1>'
-let myRegex = /<.*?>/gi
-let result = text.match(myRegex)
+const text = '<h1>Winter is coming</h1>'
+const myRegex = /<.*?>/gi
+const result = text.match(myRegex)
 
 module.exports = result

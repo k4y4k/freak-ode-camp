@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 const { logName, logLegs, dog } = require('./useDotNotationAccessObjectProps')
 
 describe(`Object Oriented Programming: Use Dot Notation to Access the Properties of an Object`, () => {

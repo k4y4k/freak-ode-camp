@@ -1,7 +1,7 @@
-let dog = {
+const dog = {
   name: 'Spot',
   numLegs: 4,
-  sayLegs: function () {
+  sayLegs() {
     return `This dog has ${dog.numLegs} legs.`
   },
 }

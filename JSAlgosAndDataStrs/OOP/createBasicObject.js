@@ -1,4 +1,4 @@
-let dog = {
+const dog = {
   name: 'Dog',
   numLegs: 4,
 }
