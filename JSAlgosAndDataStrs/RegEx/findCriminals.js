@@ -1,3 +1,3 @@
-let findCriminals = /C+/gi
+const findCriminals = /C+/gi
 
 module.exports = findCriminals

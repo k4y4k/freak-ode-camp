@@ -1,5 +1,5 @@
-let movieName = '2001: A Space Odyssey'
-let numRegex = /\d/g // Change this line
-let result = movieName.match(numRegex).length
+const movieName = '2001: A Space Odyssey'
+const numRegex = /\d/g // Change this line
+const result = movieName.match(numRegex).length
 
 module.exports = numRegex

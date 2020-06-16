@@ -1,5 +1,5 @@
-let myString = 'Hello, World!'
-let myRegex = /Hello/
-let result = myRegex.test(myString)
+const myString = 'Hello, World!'
+const myRegex = /Hello/
+const result = myRegex.test(myString)
 
 module.exports = result

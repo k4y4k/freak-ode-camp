@@ -1,4 +1,4 @@
-const { starRegex, result } = require('./moreThanOneMatch')
+const { result } = require('./moreThanOneMatch')
 
 describe(`Regular Expressions: Find More Than the First Match`, () => {
   test(`Your match should match both occurrences of the word "Twinkle"`, () => {

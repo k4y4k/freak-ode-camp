@@ -1,4 +1,6 @@
-let dog = {
+/* eslint-disable no-console */
+
+const dog = {
   name: 'Spot',
   numLegs: 4,
 }

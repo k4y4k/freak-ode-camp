@@ -1,5 +1,5 @@
-let quoteSample = 'The five boxing wizards jump quickly.'
-let regex = /\w/gi
-let result = quoteSample.match(regex).length
+const quoteSample = 'The five boxing wizards jump quickly.'
+const regex = /\w/gi
+const result = quoteSample.match(regex).length
 
 module.exports = regex
