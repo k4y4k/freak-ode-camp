@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "codecov": "3.7.1",
+    "codecov": "3.7.2",
     "jest": "26.1.0",
     "jest-extended": "0.11.5"
   },
