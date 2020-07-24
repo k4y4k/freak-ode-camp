@@ -19,8 +19,8 @@
   },
   "scripts": {
     "test": "jest --watch --verbose",
-    "ci": "./node_modules/.bin/jest --verbose"
-    , "lint":"./node_modules/.bin/eslint ."
+    "ci": "./node_modules/.bin/jest --verbose",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "jest": {
     "coverageDirectory": "./coverage/",
