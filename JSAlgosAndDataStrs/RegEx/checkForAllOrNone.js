@@ -1,5 +1,5 @@
-let favWord = 'favorite'
-let favRegex = /favou?rite/
-let result = favRegex.test(favWord)
+const favWord = 'favorite'
+const favRegex = /favou?rite/
+const result = favRegex.test(favWord)
 
 module.exports = favRegex

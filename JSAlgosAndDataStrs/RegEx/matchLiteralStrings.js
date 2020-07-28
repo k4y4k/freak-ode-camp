@@ -1,5 +1,5 @@
-let waldoIsHiding = 'Somewhere Waldo is hiding in this text.'
-let waldoRegex = /Waldo/
-let result = waldoRegex.test(waldoIsHiding)
+const waldoIsHiding = 'Somewhere Waldo is hiding in this text.'
+const waldoRegex = /Waldo/
+const result = waldoRegex.test(waldoIsHiding)
 
 module.exports = result

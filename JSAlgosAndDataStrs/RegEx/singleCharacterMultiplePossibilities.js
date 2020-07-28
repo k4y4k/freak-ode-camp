@@ -1,6 +1,6 @@
-let quoteSample =
+const quoteSample =
   'Beware of bugs in the above code; I have only proved it correct, not tried it.'
-let vowelRegex = /[aeiou]/gi
-let result = quoteSample.match(vowelRegex)
+const vowelRegex = /[aeiou]/gi
+const result = quoteSample.match(vowelRegex)
 
 module.exports = result

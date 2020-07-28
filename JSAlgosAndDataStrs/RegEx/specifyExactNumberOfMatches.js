@@ -1,5 +1,5 @@
-let timStr = 'Timmmmber'
-let timRegex = /Tim{4}ber/ // Change this line
-let result = timRegex.test(timStr)
+const timStr = 'Timmmmber'
+const timRegex = /Tim{4}ber/ // Change this line
+const result = timRegex.test(timStr)
 
 module.exports = timRegex

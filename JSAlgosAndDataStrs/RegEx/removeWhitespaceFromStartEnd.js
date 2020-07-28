@@ -1,5 +1,5 @@
-let hello = '   Hello, World!  '
-let wsRegex = /\s{2,}/g
-let result = hello.replace(wsRegex, '')
+const hello = '   Hello, World!  '
+const wsRegex = /\s{2,}/g
+const result = hello.replace(wsRegex, '')
 
 module.exports = result

@@ -5,13 +5,22 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "codecov": "3.7.2",
-    "jest": "26.1.0",
-    "jest-extended": "0.11.5"
+    "codecov": "3.7.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "jest": "26.0.1",
+    "jest-extended": "0.11.5",
+    "lint-staged": ">=10",
+    "prettier": "^2.0.5"
   },
   "scripts": {
     "test": "jest --watch --verbose",
-    "ci": "./node_modules/.bin/jest --verbose"
+    "ci": "./node_modules/.bin/jest --verbose",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "jest": {
     "coverageDirectory": "./coverage/",
@@ -19,5 +28,13 @@
     "setupFilesAfterEnv": [
       "jest-extended"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }

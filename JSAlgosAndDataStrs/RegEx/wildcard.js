@@ -1,5 +1,5 @@
-let exampleStr = "Let's have fun with regular expressions!"
-let regex = /.un/g
-let result = regex.test(exampleStr)
+const exampleStr = "Let's have fun with regular expressions!"
+const regex = /.un/g
+const result = regex.test(exampleStr)
 
 module.exports = { regex }

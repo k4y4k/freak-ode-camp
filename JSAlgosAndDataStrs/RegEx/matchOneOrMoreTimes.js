@@ -1,5 +1,5 @@
-let difficultSpelling = 'Mississippi'
-let myRegex = /s+/gi
-let result = difficultSpelling.match(myRegex)
+const difficultSpelling = 'Mississippi'
+const myRegex = /s+/gi
+const result = difficultSpelling.match(myRegex)
 
 module.exports = result

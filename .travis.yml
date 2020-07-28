@@ -8,10 +8,10 @@ git:
   quiet: true
 
 script:
-  - yarn --version
   # pretty sure this is not needed but I'm erring on the side of 2 identical
   # working installs rather than 1 non-working one
   - yarn
+  - yarn lint
   - yarn ci
   - codecov
 

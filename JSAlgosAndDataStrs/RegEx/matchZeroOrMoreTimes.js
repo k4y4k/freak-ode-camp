@@ -1,5 +1,5 @@
-let chewieQuote = 'Aaaaaaaaaaaaaaaarrrgh!'
-let chewieRegex = /Aa*/
-let result = chewieQuote.match(chewieRegex)
+const chewieQuote = 'Aaaaaaaaaaaaaaaarrrgh!'
+const chewieRegex = /Aa*/
+const result = chewieQuote.match(chewieRegex)
 
 module.exports = { chewieRegex, result, chewieQuote }
