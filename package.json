@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "jest --watch --verbose",
-    "ci": "./node_modules/.bin/jest --verbose",
+    "ci": "./node_modules/.bin/jest --verbose --coverage",
     "lint": "./node_modules/.bin/eslint ."
   },
   "jest": {
