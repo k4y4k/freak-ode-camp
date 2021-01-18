@@ -44,7 +44,7 @@ steps:
       paths:
         - coverage
       files:
-        - clover.xml
+        - coverage/clover.xml
 
   - name: rebuild-cache
     image: drillster/drone-volume-cache
