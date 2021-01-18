@@ -29,11 +29,22 @@ steps:
     commands:
       - yarn
 
-  - name: prebuild
+  - name: test
     image: node:14
     commands:
       - yarn lint
       - yarn test
+
+  - name: coverage
+    image: plugins/codecov
+    settings:
+      token:
+        from_secret: codecov-token
+      paths:
+        - coverage
+      files:
+        - *.xml
+
 
   - name: rebuild-cache
     image: drillster/drone-volume-cache
@@ -49,4 +60,3 @@ volumes:
   - name: cache
     host:
       path: /tmp/cache
-
