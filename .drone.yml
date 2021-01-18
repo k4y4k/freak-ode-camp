@@ -38,13 +38,13 @@ steps:
   - name: coverage
     image: plugins/codecov
     settings:
+      required: true
       token:
         from_secret: codecov-token
       paths:
         - coverage
       files:
-        - *.xml
-
+        - clover.xml
 
   - name: rebuild-cache
     image: drillster/drone-volume-cache
