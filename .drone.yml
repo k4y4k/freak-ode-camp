@@ -24,13 +24,13 @@ steps:
         - ./node_modules
 
   - name: install
-    image: node:14
+    image: node:16
     pull: if-not-exists
     commands:
       - yarn
 
   - name: test
-    image: node:14
+    image: node:16
     commands:
       - yarn lint
       - yarn test
