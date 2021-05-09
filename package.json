@@ -20,7 +20,8 @@
   "scripts": {
     "start": "jest --watch --verbose",
     "test": "./node_modules/.bin/jest --verbose --coverage",
-    "lint": "./node_modules/.bin/eslint ."
+    "lint": "./node_modules/.bin/eslint .",
+    "prepare": "husky install"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
@@ -28,11 +29,6 @@
     "setupFilesAfterEnv": [
       "jest-extended"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
