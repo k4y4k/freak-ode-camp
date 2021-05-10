@@ -14,8 +14,7 @@ describe('Functional Programming: Use the filter Method to Extract Data from an 
         Writer: 'Christopher Nolan',
         Actors:
           'Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy',
-        Plot:
-          'A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.',
+        Plot: 'A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.',
         Language: 'English, Japanese, French',
         Country: 'USA, UK',
         Awards: 'Won 4 Oscars. Another 143 wins & 198 nominations.',
@@ -39,8 +38,7 @@ describe('Functional Programming: Use the filter Method to Extract Data from an 
         Writer: 'Jonathan Nolan, Christopher Nolan',
         Actors:
           'Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow',
-        Plot:
-          "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        Plot: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
         Language: 'English',
         Country: 'USA, UK',
         Awards: 'Won 1 Oscar. Another 39 wins & 132 nominations.',
@@ -64,8 +62,7 @@ describe('Functional Programming: Use the filter Method to Extract Data from an 
         Writer:
           'Jonathan Nolan (screenplay), Christopher Nolan (screenplay), Christopher Nolan (story), David S. Goyer (story), Bob Kane (characters)',
         Actors: 'Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine',
-        Plot:
-          'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.',
+        Plot: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.',
         Language: 'English, Mandarin',
         Country: 'USA, UK',
         Awards: 'Won 2 Oscars. Another 146 wins & 142 nominations.',
@@ -89,8 +86,7 @@ describe('Functional Programming: Use the filter Method to Extract Data from an 
         Writer:
           'Bob Kane (characters), David S. Goyer (story), Christopher Nolan (screenplay), David S. Goyer (screenplay)',
         Actors: 'Christian Bale, Michael Caine, Liam Neeson, Katie Holmes',
-        Plot:
-          'After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from the corruption that Scarecrow and the League of Shadows have cast upon it.',
+        Plot: 'After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from the corruption that Scarecrow and the League of Shadows have cast upon it.',
         Language: 'English, Urdu, Mandarin',
         Country: 'USA, UK',
         Awards: 'Nominated for 1 Oscar. Another 15 wins & 66 nominations.',
@@ -113,8 +109,7 @@ describe('Functional Programming: Use the filter Method to Extract Data from an 
         Director: 'James Cameron',
         Writer: 'James Cameron',
         Actors: 'Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang',
-        Plot:
-          'A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.',
+        Plot: 'A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.',
         Language: 'English, Spanish',
         Country: 'USA, UK',
         Awards: 'Won 3 Oscars. Another 80 wins & 121 nominations.',

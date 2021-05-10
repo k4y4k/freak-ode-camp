@@ -3,11 +3,7 @@ const uniteUnique = require('./sortedUnion')
 describe('Intermediate Algorithm Scripting: Sorted Union', () => {
   test('uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]) should return [1, 3, 2, 5, 4].', () => {
     expect(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1])).toStrictEqual([
-      1,
-      3,
-      2,
-      5,
-      4,
+      1, 3, 2, 5, 4,
     ])
   })
 
