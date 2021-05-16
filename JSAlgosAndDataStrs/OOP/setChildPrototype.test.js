@@ -1,4 +1,4 @@
-const { Animal, Dog, beagle } = require('./setChildPrototype.js')
+const { Animal, Dog, beagle } = require('./setChildPrototype')
 
 describe(`Object Oriented Programming: Set the Child's Prototype to an Instance of the Parent`, () => {
   test(`Dog.prototype should be an instance of Animal`, () => {

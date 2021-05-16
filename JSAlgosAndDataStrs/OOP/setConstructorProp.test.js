@@ -1,4 +1,4 @@
-const Dog = require('./setConstructorProp.js')
+const Dog = require('./setConstructorProp')
 
 describe(`Object Oriented Programming: Remember to Set the Constructor Property when Changing the Prototype`, () => {
   test(`Dog.prototype should set the constructor property.`, () => {

@@ -1,4 +1,4 @@
-const add = require('./curryingIntro.js')
+const add = require('./curryingIntro')
 
 describe('Functional Programming: Introduction to Currying and Partial Application', () => {
   test('add(10)(20)(30) should return 60', () => {

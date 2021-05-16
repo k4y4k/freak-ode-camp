@@ -1,4 +1,4 @@
-const { Bird } = require('./useClosureProtect.js')
+const { Bird } = require('./useClosureProtect')
 
 describe(`Object Oriented Programming: Use Closure to Protect Properties Within an Object from Being Modified Externally`, () => {
   test(`The weight property should be a private variable and should be assigned the value of 15.`, () => {

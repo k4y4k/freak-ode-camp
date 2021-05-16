@@ -1,4 +1,4 @@
-const ownProps = require('./ownProperties.js')
+const ownProps = require('./ownProperties')
 
 describe(`Object Oriented Programming: Understand Own Properties`, () => {
   test(`ownProps should include the values "numLegs" and "name".`, () => {

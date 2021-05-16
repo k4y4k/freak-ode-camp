@@ -1,6 +1,6 @@
 /* eslint-disable no-prototype-builtins */
 
-const { Animal, Bear, Cat } = require('./useInheritance.js')
+const { Animal, Bear, Cat } = require('./useInheritance')
 
 describe(`Object Oriented Programming: Use Inheritance So You Don't Repeat Yourself`, () => {
   test('Animal.prototype should have the eat property.', () => {

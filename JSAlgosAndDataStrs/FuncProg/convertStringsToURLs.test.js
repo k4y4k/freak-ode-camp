@@ -1,4 +1,4 @@
-const urlSlug = require('./convertStringsToURLs.js')
+const urlSlug = require('./convertStringsToURLs')
 
 describe('Functional Programming: Apply Functional Programming to Convert Strings to URL Slugs', () => {
   test('urlSlug("Winter Is Coming") should return "winter-is-coming".', () => {

@@ -1,4 +1,4 @@
-const { penguin, Bird } = require('./overrideInheritedMethods.js')
+const { penguin, Bird } = require('./overrideInheritedMethods')
 
 describe(`Override Inherited Methods`, () => {
   test(`penguin.fly() should return the string "Alas, this is a flightless bird."`, () => {

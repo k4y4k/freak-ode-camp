@@ -1,4 +1,4 @@
-const { Animal, duck, beagle } = require('./inheritFromSupertype.js')
+const { Animal, duck, beagle } = require('./inheritFromSupertype')
 
 describe(`Object Oriented Programming: Inherit Behaviors from a Supertype`, () => {
   test('The duck variable should be defined.', () => expect(duck).toBeTruthy())

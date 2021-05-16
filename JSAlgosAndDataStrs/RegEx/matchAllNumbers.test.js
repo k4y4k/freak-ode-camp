@@ -1,4 +1,4 @@
-const numRegex = require('./matchAllNumbers.js')
+const numRegex = require('./matchAllNumbers')
 
 describe(`Regular Expressions: Match All Numbers`, () => {
   test(`Your regex should find 1 digit in "9"`, () => {

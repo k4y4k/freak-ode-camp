@@ -1,4 +1,4 @@
-const { regex } = require('./wildcard.js')
+const { regex } = require('./wildcard')
 
 describe(`Regular Expressions: Match Anything with Wildcard Period`, () => {
   test(`The regex should match "run" in "Let us go on a run."`, () => {

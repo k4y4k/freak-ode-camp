@@ -1,6 +1,6 @@
 /* eslint-disable no-prototype-builtins, no-console, func-names */
 
-const { Animal, Dog, beagle } = require('./addMethodsAfterInheritance.js')
+const { Animal, Dog, beagle } = require('./addMethodsAfterInheritance')
 
 describe(`Object Oriented Programming: Add Methods After Inheritance`, () => {
   test('Animal should not respond to bark()', () => {

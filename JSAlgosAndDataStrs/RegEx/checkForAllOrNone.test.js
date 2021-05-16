@@ -1,4 +1,4 @@
-const regex = require('./checkForAllOrNone.js')
+const regex = require('./checkForAllOrNone')
 
 describe(`Regular Expressions: Check for All or None`, () => {
   test(`The regex should match "favourite"`, () => {

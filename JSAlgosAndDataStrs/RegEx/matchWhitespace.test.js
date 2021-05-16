@@ -1,4 +1,4 @@
-const regex = require('./matchWhitespace.js')
+const regex = require('./matchWhitespace')
 
 describe(`Regular Expressions: Match Whitespace`, () => {
   test(`Your regex should find eight spaces in "Men are from Mars and women are from Venus."`, () => {

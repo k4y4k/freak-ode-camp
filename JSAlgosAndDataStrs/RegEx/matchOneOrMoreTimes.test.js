@@ -1,4 +1,4 @@
-const result = require('./matchOneOrMoreTimes.js')
+const result = require('./matchOneOrMoreTimes')
 
 describe(`Regular Expressions: Match Characters that Occur One or More Times`, () => {
   test(`The regex should match 2 items`, () => {

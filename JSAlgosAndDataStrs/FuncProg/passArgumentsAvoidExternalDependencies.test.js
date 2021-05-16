@@ -1,7 +1,7 @@
 const {
   fixedValue,
   incrementer,
-} = require('./passArgumentsAvoidExternalDependencies.js')
+} = require('./passArgumentsAvoidExternalDependencies')
 
 describe(`Functional Programming: Pass Arguments to Avoid External Dependence in a Function`, () => {
   test(`Your function incrementer should not change the value of fixedValue (which is 4).`, () => {

@@ -1,4 +1,4 @@
-const findCriminals = require('./findCriminals.js')
+const findCriminals = require('./findCriminals')
 
 describe(`Regular Expressions: Find One or More Criminals in a Hunt`, () => {
   test(`You should find one criminal in "C"`, () => {

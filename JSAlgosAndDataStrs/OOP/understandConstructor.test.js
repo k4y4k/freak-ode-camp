@@ -3,7 +3,7 @@ const {
   joinDogFraternity,
   patti,
   barkbark,
-} = require('./understandConstructor.js')
+} = require('./understandConstructor')
 
 describe(`Object Oriented Programming: Understand the Constructor Property`, () => {
   test(`joinDogFraternity should be a function`, () => {

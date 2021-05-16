@@ -1,4 +1,4 @@
-const sumAll = require('./sumAllNumbersInRange.js')
+const sumAll = require('./sumAllNumbersInRange')
 
 describe('Intermediate Algorithm Scripting: Sum All Numbers in a Range', () => {
   test('sumAll([1, 4]) should return a number.', () => {

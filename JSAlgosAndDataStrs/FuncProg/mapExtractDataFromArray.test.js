@@ -1,4 +1,4 @@
-const { ratings, watchList } = require('./mapExtractDataFromArray.js')
+const { ratings, watchList } = require('./mapExtractDataFromArray')
 
 const origWatchList = [
   {

@@ -1,4 +1,4 @@
-const regex = require('./restrictPossibleUsernames.js')
+const regex = require('./restrictPossibleUsernames')
 
 describe(`Regular Expressions: Restrict Possible Usernames`, () => {
   test(`The regex should match JACK`, () => {

@@ -1,4 +1,4 @@
-const { squareList } = require('./useHigherOrderFunctions.js')
+const { squareList } = require('./useHigherOrderFunctions')
 
 describe('Functional Programming: Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem', () => {
   test('squareList should be a function', () => {

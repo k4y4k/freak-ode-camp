@@ -2,7 +2,7 @@ const {
   first,
   second,
   nonMutatingPush,
-} = require('./addElementsEndOfArrayConcat.js')
+} = require('./addElementsEndOfArrayConcat')
 
 describe('Functional Programming: Add Elements to the End of an Array Using concat Instead of push', () => {
   test('The first array should not change.', () => {

@@ -1,4 +1,4 @@
-const nonAlphabetRegex = require('./matchAllButLettersAndNumbers.js')
+const nonAlphabetRegex = require('./matchAllButLettersAndNumbers')
 
 describe(`Regular Expressions: Match Everything But Letters and Numbers`, () => {
   test(`The regex should find 6 non-alphanumeric characters in "The five boxing wizards jump quickly."`, () => {

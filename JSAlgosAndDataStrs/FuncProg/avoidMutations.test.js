@@ -1,4 +1,4 @@
-const { fixedValue, incrementer } = require('./avoidMutations.js')
+const { fixedValue, incrementer } = require('./avoidMutations')
 
 describe(`Functional Programming: Avoid Mutations and Side Effects Using Functional Programming`, () => {
   test(`incrementer() should not change the value of fixedValue (which is 4).`, () => {

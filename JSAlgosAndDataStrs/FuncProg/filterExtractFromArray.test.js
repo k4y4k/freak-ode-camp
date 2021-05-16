@@ -1,4 +1,4 @@
-const { watchList, filteredList } = require('./filterExtractFromArray.js')
+const { watchList, filteredList } = require('./filterExtractFromArray')
 
 describe('Functional Programming: Use the filter Method to Extract Data from an Array', () => {
   test('The watchList variable should not change.', () => {
