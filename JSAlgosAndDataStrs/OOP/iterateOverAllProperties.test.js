@@ -1,4 +1,4 @@
-const { ownProps, prototypeProps } = require('./iterateOverAllProperties.js')
+const { ownProps, prototypeProps } = require('./iterateOverAllProperties')
 
 describe(`Object Oriented Programming: Iterate Over All Properties`, () => {
   test(`The ownProps array should include "name"`, () => {

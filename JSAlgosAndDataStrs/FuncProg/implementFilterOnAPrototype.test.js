@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 
-const { new_s } = require('./implementFilterOnAPrototype.js')
+const { new_s } = require('./implementFilterOnAPrototype')
 
 describe('Functional Programming: Implement the filter Method on a Prototype', () => {
   test('new_s should equal [23, 65, 5].', () => {

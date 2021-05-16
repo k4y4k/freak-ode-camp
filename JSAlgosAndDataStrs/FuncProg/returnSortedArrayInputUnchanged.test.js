@@ -1,7 +1,7 @@
 const {
   globalArray,
   nonMutatingSort,
-} = require('./returnSortedArrayInputUnchanged.js')
+} = require('./returnSortedArrayInputUnchanged')
 
 describe('Functional Programming: Return a Sorted Array Without Changing the Original Array', () => {
   test('The globalArray variable should not change.', () => {

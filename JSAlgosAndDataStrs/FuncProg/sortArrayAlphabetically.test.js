@@ -1,4 +1,4 @@
-const alphabeticalOrder = require('./sortArrayAlphabetically.js')
+const alphabeticalOrder = require('./sortArrayAlphabetically')
 
 describe('Functional Programming: Sort an Array Alphabetically using the sort Method', () => {
   test('alphabeticalOrder(["a", "d", "c", "a", "z", "g"]) should return ["a", "a", "c", "d", "g", "z"]', () => {

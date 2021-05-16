@@ -1,4 +1,4 @@
-const splitify = require('./splitStringToArrayUsingSplit.js')
+const splitify = require('./splitStringToArrayUsingSplit')
 
 describe('Functional Programming: Split a String into an Array Using the split Method', () => {
   test('splitify("Hello World,I-am code") should return ["Hello", "World", "I", "am", "code"].', () => {

@@ -1,4 +1,4 @@
-const { fixRegex, replaceText } = require('./captureGroupsSearchReplace.js')
+const { fixRegex, replaceText } = require('./captureGroupsSearchReplace')
 
 describe(`Regular Expressions: Use Capture Groups to Search and Replace`, () => {
   test(`Your regex should change "one two three" to "three two one"`, () => {

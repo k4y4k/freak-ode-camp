@@ -1,10 +1,4 @@
-const {
-  Animal,
-  Bird,
-  Dog,
-  duck,
-  beagle,
-} = require('./resetInheritedProperty.js')
+const { Animal, Bird, Dog, duck, beagle } = require('./resetInheritedProperty')
 
 describe(`Object Oriented Programming: Reset an Inherited Constructor Property`, () => {
   test(`Bird.prototype should be an instance of Animal.`, () => {

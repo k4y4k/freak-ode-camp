@@ -1,4 +1,4 @@
-const { watchList, getRating } = require('./useReduceToAnalyseData.js')
+const { watchList, getRating } = require('./useReduceToAnalyseData')
 
 describe('Functional Programming: Use the reduce Method to Analyze Data', () => {
   test('The watchList variable should not change.', () => {

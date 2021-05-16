@@ -1,8 +1,4 @@
-const {
-  result,
-  chewieQuote,
-  chewieRegex,
-} = require('./matchZeroOrMoreTimes.js')
+const { result, chewieQuote, chewieRegex } = require('./matchZeroOrMoreTimes')
 
 describe(`Regular Expressions: Match Characters that Occur Zero or More Times`, () => {
   test(`Your regex should match "A" in chewieQuote`, () => {

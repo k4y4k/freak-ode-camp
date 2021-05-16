@@ -2,7 +2,7 @@ const {
   nonMutatingConcat,
   first,
   second,
-} = require('./combineTwoArraysConcatMethod.js')
+} = require('./combineTwoArraysConcatMethod')
 
 describe('Functional Programming: Combine Two Arrays Using the concat Method', () => {
   test('The first array should not change.', () => {

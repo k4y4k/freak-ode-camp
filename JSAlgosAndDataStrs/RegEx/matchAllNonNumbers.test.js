@@ -1,4 +1,4 @@
-const regex = require('./matchAllNonNumbers.js')
+const regex = require('./matchAllNonNumbers')
 
 describe(`Regular Expressions: Match All Non-Numbers`, () => {
   test(`Your regex should find no non-digits in "9".`, () => {

@@ -1,4 +1,4 @@
-const dog = require('./createAMethodOnAnObject.js')
+const dog = require('./createAMethodOnAnObject')
 
 describe(`Object Oriented Programming: Create a Method on an Object`, () => {
   test(`dog.sayLegs() should be a function.`, () => {

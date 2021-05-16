@@ -3,7 +3,7 @@ const {
   newBookList,
   newerBookList,
   newestBookList,
-} = require('./refactorGlobalVariablesAway.js')
+} = require('./refactorGlobalVariablesAway')
 
 describe(`Functional Programming: Refactor Global Variables Out of Functions`, () => {
   test(`bookList should not change.`, () => {

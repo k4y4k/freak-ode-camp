@@ -1,4 +1,4 @@
-const mutation = require('./mutations.js')
+const mutation = require('./mutations')
 
 describe('Basic Algorithm Scripting: Mutations', () => {
   test(`mutation(["hello", "hey"]) should return false.`, () => {

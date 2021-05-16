@@ -1,4 +1,4 @@
-const regex = require('./specifyUpperLowerNumberOfMatches.js')
+const regex = require('./specifyUpperLowerNumberOfMatches')
 
 describe(`Regular Expressions: Specify Upper and Lower Number of Matches`, () => {
   test(`Your regex should not match "Ohh no"`, () => {

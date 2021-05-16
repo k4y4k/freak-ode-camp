@@ -1,4 +1,4 @@
-const { bird, boat, glideMixin } = require('./useAMixin.js')
+const { bird, boat, glideMixin } = require('./useAMixin')
 
 describe(`Object Oriented Programming: Use a Mixin to Add Common Behavior Between Unrelated Objects`, () => {
   test(`Your code should declare a glideMixin variable that is a function.`, () => {

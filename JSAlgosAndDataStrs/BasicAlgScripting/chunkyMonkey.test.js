@@ -1,4 +1,4 @@
-const chunkArrayInGroups = require('./chunkyMonkey.js')
+const chunkArrayInGroups = require('./chunkyMonkey')
 
 describe(`Basic Algorithm Scripting: Chunky Monkey`, () => {
   test(`chunkArrayInGroups(["a", "b", "c", "d"], 2) should return [["a", "b"], ["c", "d"]].`, () => {

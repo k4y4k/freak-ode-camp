@@ -1,4 +1,4 @@
-const regex = require('./positiveNegativeLookahead.js')
+const regex = require('./positiveNegativeLookahead')
 
 describe(`Regular Expressions: Positive and Negative Lookahead`, () => {
   test(`The regex should match "abc123"`, () => {

@@ -1,7 +1,7 @@
 const {
   tea4GreenTeamFCC,
   tea4BlackTeamFCC,
-} = require('./understandTerminology.js')
+} = require('./understandTerminology')
 
 describe(`Functional Programming: Understand Functional Programming Terminology`, () => {
   test(`The tea4GreenTeamFCC variable should hold 27 cups of green tea for the team`, () => {

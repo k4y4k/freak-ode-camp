@@ -1,6 +1,6 @@
 /* eslint-disable no-prototype-builtins */
 
-const beagle = require('./usePrototypeProperties.js')
+const beagle = require('./usePrototypeProperties')
 
 describe(`Object Oriented Programming: Use Prototype Properties to Reduce Duplicate Code`, () => {
   test(`beagle should have a numLegs property.`, () => {

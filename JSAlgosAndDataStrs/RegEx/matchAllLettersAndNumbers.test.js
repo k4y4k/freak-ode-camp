@@ -1,4 +1,4 @@
-const regex = require('./matchAllLettersAndNumbers.js')
+const regex = require('./matchAllLettersAndNumbers')
 
 describe(`Regular Expressions: Match All Letters and Numbers`, () => {
   test(`The regex should find 31 alphanumeric characters in "The five boxing wizards jump quickly."`, () => {

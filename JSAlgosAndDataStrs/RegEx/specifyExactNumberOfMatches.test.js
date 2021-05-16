@@ -1,4 +1,4 @@
-const regex = require('./specifyExactNumberOfMatches.js')
+const regex = require('./specifyExactNumberOfMatches')
 
 describe(`Regular Expressions: Specify Exact Number of Matches`, () => {
   test(`The regex should not match "Timber"`, () => {

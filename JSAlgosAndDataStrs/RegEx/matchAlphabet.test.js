@@ -1,4 +1,4 @@
-const result = require('./matchAlphabet.js')
+const result = require('./matchAlphabet')
 
 describe(`Regular Expressions: Match Letters of the Alphabet`, () => {
   test(`Your regex should match 35 items`, () => {

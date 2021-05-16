@@ -1,7 +1,4 @@
-const {
-  nonMutatingSplice,
-  inputCities,
-} = require('./removeElementsArraySlice.js')
+const { nonMutatingSplice, inputCities } = require('./removeElementsArraySlice')
 
 describe('Functional Programming: Remove Elements from an Array Using slice Instead of splice', () => {
   test('The inputCities array should not change.', () => {

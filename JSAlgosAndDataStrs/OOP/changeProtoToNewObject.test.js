@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 
-const Dog = require('./changeProtoToNewObject.js')
+const Dog = require('./changeProtoToNewObject')
 
 describe(`Object Oriented Programming: Change the Prototype to a New Object`, () => {
   test(`Dog.prototype should be set to a new object`, () => {

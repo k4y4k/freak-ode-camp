@@ -1,4 +1,4 @@
-const result = require('./singleCharacterMultiplePossibilities.js')
+const result = require('./singleCharacterMultiplePossibilities')
 
 describe(`Regular Expressions: Match Single Character with Multiple Possibilities`, () => {
   test(`You should find all 25 vowels`, () => {

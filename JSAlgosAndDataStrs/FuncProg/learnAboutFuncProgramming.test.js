@@ -1,4 +1,4 @@
-const tea4TeamFCC = require('./learnAboutFuncProgramming.js')
+const tea4TeamFCC = require('./learnAboutFuncProgramming')
 
 describe(`Functional Programming: Learn About Functional Programming`, () => {
   test(`The tea4TeamFCC variable should hold 40 cups of tea for the team.`, () => {

@@ -1,4 +1,4 @@
-const Dog = require('./defineAConstructorFunction.js')
+const Dog = require('./defineAConstructorFunction')
 
 describe(`Object Oriented Programming: Define a Constructor Function`, () => {
   test(`Dog should have a name property set to a string.`, () => {

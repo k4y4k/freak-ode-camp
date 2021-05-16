@@ -1,4 +1,4 @@
-const { inputAnim, sliceArray } = require('./returnPartOfArrayUsingSlice.js')
+const { inputAnim, sliceArray } = require('./returnPartOfArrayUsingSlice')
 
 describe('Functional Programming: Return Part of an Array Using the slice Method', () => {
   test('The inputAnim variable should not change.', () => {

@@ -1,4 +1,4 @@
-const { funModule } = require('./useAnIIFEToCreateAModule.js')
+const { funModule } = require('./useAnIIFEToCreateAModule')
 
 describe(`Object Oriented Programming: Use an IIFE to Create a Module`, () => {
   test(`funModule should be defined and return an object.`, () => {

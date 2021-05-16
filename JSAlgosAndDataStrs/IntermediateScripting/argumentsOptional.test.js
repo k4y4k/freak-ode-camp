@@ -1,4 +1,4 @@
-const addTogether = require('./argumentsOptional.js')
+const addTogether = require('./argumentsOptional')
 
 describe('Intermediate Algorithm Scripting: Arguments Optional', () => {
   test('addTogether(2, 3) should return 5.', () => {

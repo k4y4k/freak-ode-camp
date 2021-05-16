@@ -1,4 +1,4 @@
-const result = require('./matchNumbersAndAlphabet.js')
+const result = require('./matchNumbersAndAlphabet')
 
 describe(`Regular Expressions: Match Numbers and Letters of the Alphabet`, () => {
   test(`Your regex myRegex should match 17 items.`, () => {

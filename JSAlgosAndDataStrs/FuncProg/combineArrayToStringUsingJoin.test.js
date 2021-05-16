@@ -1,4 +1,4 @@
-const sentensify = require('./combineArrayToStringUsingJoin.js')
+const sentensify = require('./combineArrayToStringUsingJoin')
 
 describe('Functional Programming: Combine an Array into a String Using the join Method', () => {
   test('sentensify("May-the-force-be-with-you") should return a string.', () => {

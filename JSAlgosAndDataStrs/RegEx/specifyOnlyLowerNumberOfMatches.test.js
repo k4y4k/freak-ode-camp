@@ -1,4 +1,4 @@
-const regex = require('./specifyOnlyLowerNumberOfMatches.js')
+const regex = require('./specifyOnlyLowerNumberOfMatches')
 
 describe(`Regular Expressions: Specify Only the Lower Number of Matches`, () => {
   test(`The regex should not match "Hazzah"`, () => {

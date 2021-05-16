@@ -1,4 +1,4 @@
-const regex = require('./checkForMixedGrouping.js')
+const regex = require('./checkForMixedGrouping')
 
 describe(`Regular Expressions: Check For Mixed Grouping of Characters`, () => {
   test(`Your regex myRegex should return true for the string Franklin D. Roosevelt`, () => {

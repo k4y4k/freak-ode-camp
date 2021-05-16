@@ -1,4 +1,4 @@
-const regex = require('./reusePatternsUsingCaptureGroups.js')
+const regex = require('./reusePatternsUsingCaptureGroups')
 
 describe(`Regular Expressions: Reuse Patterns Using Capture Groups`, () => {
   test(`Your regex should match "10 10 10"`, () => {
