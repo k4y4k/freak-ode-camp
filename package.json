@@ -15,7 +15,7 @@
     "jest": "27.0.5",
     "jest-extended": "0.11.5",
     "lint-staged": "11.0.0",
-    "prettier": "2.3.1"
+    "prettier": "2.3.2"
   },
   "scripts": {
     "start": "jest --watch --verbose",
